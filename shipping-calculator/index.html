@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Inika' rel='stylesheet' type='text/css'>
+
+    <title>Shipping Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shipping Calculator</h1>
+
+      <div class="row">
+        <div class="col-md-5">
+          <form id="ship-form">
+            <div class="form-group size-input">
+              <label for="package-length">Length</label>
+              <input size="3" type="text" class="form-control" id="package-length">
+            </div>
+            <div class="form-group size-input">
+              <label for="package-width">Width</label>
+              <input size="3" type="text" class="form-control" id="package-width">
+            </div>
+            <div class="form-group size-input">
+              <label for="package-height">Height</label>
+              <input size="3" type="text" class="form-control" id="package-height">
+            </div>
+            <div class="clear"></div>
+            <div class="form-group weight-input">
+              <label for="package-weight">Weight</label>
+              <input size="3" type="text" class="form-control" id="package-weight">
+            </div>
+
+            <button type="submit" class="btn btn-warning">Calculate</button>
+          </form>
+
+        </div>
+
+          <div id="shipping-rates" class="col-md-5">
+            <div class="shipping-column" id="dimensions">
+
+            </div>
+
+            <div class="shipping-column" id="shipping-col-1">
+              <div class="radio">
+                <label>
+                <input type="radio" name="optionsRadios" id="standardRadio" value="standard" checked>
+                <h4>Standard</h4>
+                </label><span></span>
+              </div>
+            </div>
+            <div class="shipping-column" id="shipping-col-2">
+              <div class="radio">
+                <label>
+                <input type="radio" name="optionsRadios" id="expressRadio" value="express">             
+                <h4>Express</h4>
+                </label><span></span>
+              </div>
+            </div>
+
+            <div class="shipping-column" id="shipping-col-3">
+              <div class="radio">
+                <label>
+                <input type="radio" name="optionsRadios" id="overnightRadio" value="overnight">
+                <h4>Overnight</h4>
+              </label><span></span>
+            </div>
+          </div>
+          <div id="ship-button"> 
+            <button type="button" class="btn btn-danger">Ship it!</button> 
+          </div>
+      </div>
+
+    </div>
+  </body>
+</html>

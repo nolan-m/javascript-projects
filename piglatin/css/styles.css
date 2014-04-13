@@ -1,0 +1,21 @@
+#resultsDiv {
+  display: none;
+}
+
+html { 
+  background: url(images/plmixtape.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  margin-top: 275px;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

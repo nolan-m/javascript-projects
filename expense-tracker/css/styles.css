@@ -1,0 +1,36 @@
+body {
+	background-color: #617F74;
+	font-family: 'Bitter', serif;
+}
+.container {
+  margin-top: 75px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #F0FFF9;
+  border-radius: 15px;
+}
+h1 {
+	padding-bottom: 5px;
+}
+#instructions {
+  padding-top: 50px;
+}
+
+#new-amount {
+  width: 150px;
+}
+#new-description {
+  width: 300px;
+}
+#new-category {
+  width: 300px;
+}
+
+#add-purchase {
+  display: none;
+}
+#purchases {
+  display: none;
+}
+

@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(http://art.ngfiles.com/images/112/8bitblackmage_planet-express-costume.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Inika', serif;
+}
+
+.container {
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.clear {
+  clear:both;
+}
+
+.size-input {
+  float:left;
+  margin:0 8px 0 0;
+}
+
+.weight-input {
+  margin:10px 0 20px 0;
+}
+
+#shipping-rates {
+  display:none;
+}
+
+.shipping-column {
+  padding: 10px;
+  clear: both;
+  border-bottom: 1px solid black;
+  color:white;
+  text-align: right;
+}
+
+.shipping-column h4 {
+  padding: 0 0 5px 0;
+  margin: 0;
+  float: left;
+  font-weight:normal;
+}
+
+.shipping-column span {
+  padding: 0 0 5px 10px;
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#dimensions {
+  color: black;
+}
+
+#shipping-col-1 {
+  background-color: #FF530D;
+}
+
+#shipping-col-2 {
+  background-color: #76B254;
+}
+
+#shipping-col-3 {
+  background-color: #1514CC;
+  border-bottom: none;
+
+}
+
+#ship-button {
+  clear: both;
+  margin: 25px;
+}
+
+
